@@ -1,7 +1,7 @@
 <?php
 
   $index = new DOMDocument();
-  $index->loadHtmlFile('index.html');
-  echo $index->saveHtlm();
+  $index->loadHTMLFile('index.html');
+  echo $index->saveHTML();
 
 ?>
